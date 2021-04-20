@@ -1,0 +1,38 @@
+<annotation>
+	<folder>train</folder>
+	<filename>door (153).jpg</filename>
+	<path>C:\tensorflow1\models\research\object_detection\images\train\door (153).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>900</width>
+		<height>1200</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>door</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>368</xmin>
+			<ymin>302</ymin>
+			<xmax>540</xmax>
+			<ymax>831</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>doorHandle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>515</xmin>
+			<ymin>580</ymin>
+			<xmax>538</xmax>
+			<ymax>603</ymax>
+		</bndbox>
+	</object>
+</annotation>

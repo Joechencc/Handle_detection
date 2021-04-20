@@ -1,0 +1,38 @@
+<annotation>
+	<folder>test</folder>
+	<filename>doort (30).jpg</filename>
+	<path>C:\tensorflow1\models\research\object_detection\images\test\doort (30).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>900</width>
+		<height>1200</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>door</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>347</xmin>
+			<ymin>300</ymin>
+			<xmax>578</xmax>
+			<ymax>856</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>doorHandle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>523</xmin>
+			<ymin>601</ymin>
+			<xmax>565</xmax>
+			<ymax>632</ymax>
+		</bndbox>
+	</object>
+</annotation>

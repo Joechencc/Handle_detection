@@ -1,0 +1,57 @@
+https://linuxize.com/post/how-to-install-python-3-8-on-ubuntu-18-04/
+
+sudo apt-get install gcc
+
+sudo apt install python3.8
+sudo apt install python3.8-distutils
+
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python3.8 get-pip.py
+
+
+sudo apt-get install -y python3.8-dev
+
+pip3.8 install -r requirement.txt
+
+
+python3.8 detect.py --source 0  # webcam
+	            --weights best.pt
+                    file.jpg  # image 
+                    file.mp4  # video
+                    path/  # directory
+                    path/*.jpg  # glob
+                    rtsp://170.93.143.139/rtplive/470011e600ef003a004ee33696235daa  # rtsp stream
+                    rtmp://192.168.1.105/live/test  # rtmp stream
+                    http://112.50.243.8/PLTV/88888888/224/3221225900/1.m3u8
+
+
+https://docs.google.com/presentation/d/1zsXERhgQbWxfLzMBeXV2zVJwN4W75H1IlqU3muIykUo/edit?usp=sharing
+
+python3.8 detect.py --source 4 --weights best.pt
+
+
+pyrealsense2 in python3.8
+
+
+    Update CMake using this method
+    (You need to have curl installed for this to work. )
+
+    Download the zip file from https://github.com/IntelRealSense/librealsense/releases/. I am using version 2.38.1
+
+    Extract the file, cd into the extracted file .
+
+    Create a dir called build and cd into it.
+
+    Run the CMake command to test to see if the build will work.
+    cmake ../ -DFORCE_RSUSB_BACKEND=ON -DBUILD_PYTHON_BINDINGS:bool=true -DPYTHON_EXECUTABLE=/usr/bin/python3.8 -DCMAKE_BUILD_TYPE=release -DBUILD_EXAMPLES=true -DBUILD_GRAPHICAL_EXAMPLES=true 
+
+If you have issues with the above step, check out this, this and this
+
+    Still in the build dir. Run make -j4 and then sudo make install.
+
+    Add these to the end of your .bashrc file
+
+export PATH=$PATH:~/.local/bin
+export PYTHONPATH=$PYTHONPATH:/usr/local/lib
+export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python3.8/pyrealsense2
+

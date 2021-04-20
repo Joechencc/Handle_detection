@@ -1,0 +1,26 @@
+<annotation>
+	<folder>hResized</folder>
+	<filename>handle30.jpg</filename>
+	<path>C:\Users\buzz7\Downloads\hResized\handle30.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>900</width>
+		<height>1200</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>doorHandle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>743</xmin>
+			<ymin>72</ymin>
+			<xmax>871</xmax>
+			<ymax>202</ymax>
+		</bndbox>
+	</object>
+</annotation>

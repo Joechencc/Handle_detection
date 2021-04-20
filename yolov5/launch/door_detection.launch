@@ -1,0 +1,3 @@
+<launch>
+	<node name="door_detection_node" pkg="controller_msgs" type="door_detection_node" /> 
+</launch>

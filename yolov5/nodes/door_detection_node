@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+
+print("importing main from Python package controller_msgs in node11111111111111111")
+# from controller_msgs import main
+from controller_msgs import main
+print("imported main from Python package controller_msgs in node222222222222222222")
+
+if __name__ == '__main__':
+    print("executing main() in controller_msgs")
+    main()
